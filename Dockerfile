@@ -21,7 +21,7 @@ RUN git clone https://github.com/qerope/rv-ai
 
 WORKDIR /app/rv-ai
 
-RUN npm install -g npm@latest && \
+RUN npm install -g npm@latest 
 
 RUN npm install --force
 
