@@ -22,8 +22,6 @@ RUN git clone https://github.com/qerope/rv-ai
 WORKDIR /app/rv-ai
 
 RUN npm install -g npm@latest && \
-    npm install -g express-generator && \
-    npm install
 
 RUN npm install --force
 
