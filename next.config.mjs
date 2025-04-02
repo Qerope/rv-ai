@@ -7,6 +7,7 @@ try {
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  basePath: '/vres',
   eslint: {
     ignoreDuringBuilds: true,
   },
