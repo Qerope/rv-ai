@@ -24,8 +24,9 @@ WORKDIR /app/rv-ai
 RUN npm install -g npm@latest 
 
 RUN npm install --force
+RUN npm run build
 
 EXPOSE 3000
 
-CMD nohup npm run dev --prefix /app/rv-ai & \
+CMD nohup npm run start --prefix /app/rv-ai & \
     tail -f /dev/null
