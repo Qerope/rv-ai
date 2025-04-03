@@ -164,10 +164,10 @@ export default function Home() {
       </p>
 
       <div className="flex justify-center mb-6 gap-4">
-        <Link href="/">
+        <Link href="#">
           <Button variant={!jobParam ? "default" : "outline"}>Resume Builder</Button>
         </Link>
-        <Link href="/job-analysis">
+        <Link href="job-analysis">
           <Button variant={jobParam ? "default" : "outline"}>Job Analysis</Button>
         </Link>
       </div>

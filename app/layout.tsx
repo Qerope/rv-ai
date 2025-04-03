@@ -25,10 +25,10 @@ export default function RootLayout({
               ATS Resume Builder
             </Link>
             <nav className="flex gap-6">
-              <Link href="/" className="hover:text-primary transition-colors">
+              <Link href="#" className="hover:text-primary transition-colors">
                 Resume Builder
               </Link>
-              <Link href="/job-analysis" className="hover:text-primary transition-colors">
+              <Link href="job-analysis" className="hover:text-primary transition-colors">
                 Job Analysis
               </Link>
             </nav>
