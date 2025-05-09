@@ -2,9 +2,9 @@ import type { ResumeData } from "./types"
 
 export const defaultResumeData: ResumeData = {
   basics: {
-    name: "Hamed Tavakoli Dastjerdi",
-    label: "uOttawa CS Student, Hitachi Intern",
-    email: "HamedTava@outlook.com",
+    name: "Nicholas Tavakoli",
+    label: "Computer Science @ uOttawa, Site Deployment @ Hitachi",
+    email: "NicholasTavakoli@gmail.com",
     phone: "(613) 294-6363",
     url: "https://Qerope.co",
     location: {
@@ -20,14 +20,14 @@ export const defaultResumeData: ResumeData = {
       },
       {
         network: "Linkedin",
-        username: "/Qerope",
-        url: "https://linkedin.com/in/Qerope",
+        username: "/NicholasTavakoli",
+        url: "https://linkedin.com/in/NicholasTavakoli",
       },
     ],
   },
   work: [
     {
-      name: "Hitachi",
+      name: "Hitachi Rail",
       position: "Site Deployment Intern",
       url: "https://www.hitachi.com",
       startDate: "2024-05-01",
@@ -40,7 +40,7 @@ export const defaultResumeData: ResumeData = {
     },
     {
       name: "Broken Teapot Studios Inc.",
-      position: "Game Developer Intern",
+      position: "Software Developer Intern",
       url: "https://www.brokenteapotstudios.com",
       startDate: "2024-01-01",
       endDate: "2024-01-31",
@@ -52,7 +52,7 @@ export const defaultResumeData: ResumeData = {
     },
     {
       name: "RTXComputers Electronics Provider",
-      position: "Full Stack Web Developer",
+      position: "SoftwareDeveloper",
       url: "https://www.rtxcomputers.com",
       startDate: "2022-05-01",
       endDate: "2022-08-31",
@@ -70,7 +70,7 @@ export const defaultResumeData: ResumeData = {
       area: "Computer Science, Minor in Physics",
       studyType: "Bachelor of Science",
       startDate: "2022-09-01",
-      endDate: "2026-04-01",
+      endDate: "2025-12-30",
       score: "N/A",
       courses: [
         "Data Structures & Algorithms",
@@ -234,7 +234,7 @@ export const defaultResumeData: ResumeData = {
   ],
   projects: [
     {
-      name: "ML Mistery Card Game Analyzer",
+      name: "ML Mystery Card Game Analyzer",
       description: "Card Game ML Data Engineering to find the rules of a mistery card game.",
       url: "https://github.com/qerope/de-csgames"
     },
