@@ -3,7 +3,7 @@ import type { ResumeData } from "./types"
 export const defaultResumeData: ResumeData = {
   basics: {
     name: "Nicholas Tavakoli",
-    label: "Computer Science @ uOttawa, Site Deployment @ Hitachi",
+    label: "uOttawa CS, Hitachi Deployment Specialist",
     email: "NicholasTavakoli@gmail.com",
     phone: "(613) 294-6363",
     url: "https://Qerope.co",
@@ -52,7 +52,7 @@ export const defaultResumeData: ResumeData = {
     },
     {
       name: "RTXComputers Electronics Provider",
-      position: "SoftwareDeveloper",
+      position: "Software Developer",
       url: "https://www.rtxcomputers.com",
       startDate: "2022-05-01",
       endDate: "2022-08-31",
