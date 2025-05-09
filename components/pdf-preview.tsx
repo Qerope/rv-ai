@@ -35,69 +35,69 @@ export function PdfPreview({
     setIsClient(true)
   }, [])
 
-const getThemeColors = () => {
-  switch (theme) {
-    /* ——— Greens: calm, professional ——— */
-    case "emerald":
-      return {
-        primary:  "#006A4E",  // deep teal 700
-        secondary:"#009F6B",  // teal 600
-        light:    "#F2F9F6",  // mint 50
-        medium:   "#A0DABB",  // teal 200
-        border:   "#5BB899",  // teal 400
-      }
+  const getThemeColors = () => {
+    switch (theme) {
+      /* ——— Greens: calm, professional ——— */
+      case "emerald":
+        return {
+          primary: "#006A4E",  // deep teal 700
+          secondary: "#009F6B",  // teal 600
+          light: "#F2F9F6",  // mint 50
+          medium: "#A0DABB",  // teal 200
+          border: "#5BB899",  // teal 400
+        }
 
-    /* ——— Reds: modern but toned-down ——— */
-    case "rose":
-      return {
-        primary:  "#8C1C32",  // burgundy 700
-        secondary:"#C72C48",  // rose 600
-        light:    "#FFF5F6",  // rose 50
-        medium:   "#F7C9D0",  // rose 200
-        border:   "#E8AEB8",  // rose 300
-      }
+      /* ——— Reds: modern but toned-down ——— */
+      case "rose":
+        return {
+          primary: "#8C1C32",  // burgundy 700
+          secondary: "#C72C48",  // rose 600
+          light: "#FFF5F6",  // rose 50
+          medium: "#F7C9D0",  // rose 200
+          border: "#E8AEB8",  // rose 300
+        }
 
-    /* ——— Ambers: warm & subtle ——— */
-    case "amber":
-      return {
-        primary:  "#9A5800",  // amber 700
-        secondary:"#C67900",  // amber 600
-        light:    "#FFFAF2",  // amber 50
-        medium:   "#F7D08A",  // amber 300
-        border:   "#EAC27A",  // amber 400
-      }
+      /* ——— Ambers: warm & subtle ——— */
+      case "amber":
+        return {
+          primary: "#9A5800",  // amber 700
+          secondary: "#C67900",  // amber 600
+          light: "#FFFAF2",  // amber 50
+          medium: "#F7D08A",  // amber 300
+          border: "#EAC27A",  // amber 400
+        }
 
-    /* ——— Blues: clear, trustworthy ——— */
-    case "sky":
-      return {
-        primary:  "#005B99",  // sky 700
-        secondary:"#007ACC",  // sky 600
-        light:    "#F2F8FC",  // sky 50
-        medium:   "#A8D4F6",  // sky 200
-        border:   "#7DB8E8",  // sky 300
-      }
+      /* ——— Blues: clear, trustworthy ——— */
+      case "sky":
+        return {
+          primary: "#005B99",  // sky 700
+          secondary: "#007ACC",  // sky 600
+          light: "#F2F8FC",  // sky 50
+          medium: "#A8D4F6",  // sky 200
+          border: "#7DB8E8",  // sky 300
+        }
 
-    /* ——— Purples: elegant but legible ——— */
-    case "purple":
-      return {
-        primary:  "#5E2D8C",  // purple 700
-        secondary:"#7A3DBD",  // purple 600
-        light:    "#F8F5FC",  // purple 50
-        medium:   "#D5C4F1",  // purple 200
-        border:   "#BCA1E6",  // purple 300
-      }
+      /* ——— Purples: elegant but legible ——— */
+      case "purple":
+        return {
+          primary: "#5E2D8C",  // purple 700
+          secondary: "#7A3DBD",  // purple 600
+          light: "#F8F5FC",  // purple 50
+          medium: "#D5C4F1",  // purple 200
+          border: "#BCA1E6",  // purple 300
+        }
 
-    /* ——— Default (Indigo): classic tech look ——— */
-    default:                // "indigo"
-      return {
-        primary:  "#2C3E8C",  // indigo 700
-        secondary:"#4059D1",  // indigo 600
-        light:    "#F3F5FF",  // indigo 50
-        medium:   "#B7C1FF",  // indigo 200
-        border:   "#9CA9FF",  // indigo 300
-      }
+      /* ——— Default (Indigo): classic tech look ——— */
+      default:                // "indigo"
+        return {
+          primary: "#2C3E8C",  // indigo 700
+          secondary: "#4059D1",  // indigo 600
+          light: "#F3F5FF",  // indigo 50
+          medium: "#B7C1FF",  // indigo 200
+          border: "#9CA9FF",  // indigo 300
+        }
+    }
   }
-}
 
 
   const themeColors = getThemeColors()
@@ -105,8 +105,8 @@ const getThemeColors = () => {
   // Create styles
   const styles = StyleSheet.create({
     page: {
-      padding: 30,
-      fontFamily: "Roboto",
+      padding: 23,
+      fontFamily: 'Helvetica',
       fontSize: 10,
       lineHeight: 1.5,
       color: "#333",
@@ -117,15 +117,11 @@ const getThemeColors = () => {
     header: {
       marginBottom: 10,
       paddingBottom: 10,
-      borderBottomWidth: 2,
-      borderBottomColor: themeColors.primary,
-      borderBottomStyle: "solid",
-      backgroundColor: themeColors.light,
-      padding: 10,
+      padding: 0,
       borderRadius: 4,
     },
     headerTop: {
-      height: 6,
+      height: 0,
       backgroundColor: themeColors.medium,
       marginBottom: 10,
       marginHorizontal: -10,
@@ -493,7 +489,7 @@ const getThemeColors = () => {
                 <View style={styles.profilesRow}>
                   {basics.profiles.map((profile, index) => (
                     <Text key={index} style={styles.profileItem}>
-                      {profile.network}: {profile.username}
+                      {profile.network}: {profile.url}
                     </Text>
                   ))}
                 </View>

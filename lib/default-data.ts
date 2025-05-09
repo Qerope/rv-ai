@@ -4,7 +4,7 @@ export const defaultResumeData: ResumeData = {
   basics: {
     name: "Nicholas Tavakoli",
     label: "uOttawa CS, Hitachi Specialist",
-    email: "NicholasTavakoli@gmail.com",
+    email: "TavakoliNicholas@gmail.com",
     phone: "(613) 294-6363",
     url: "https://Qerope.co",
     location: {
@@ -16,7 +16,7 @@ export const defaultResumeData: ResumeData = {
       {
         network: "GitHub",
         username: "Qerope",
-        url: "https://Github.com/Qerope",
+        url: "https://github.com/Qerope",
       },
       {
         network: "Linkedin",
@@ -28,27 +28,25 @@ export const defaultResumeData: ResumeData = {
   work: [
     {
       name: "Hitachi Rail",
-      position: "Deployment Specialist",
+      position: "Deployment Specialist Intern",
       url: "https://www.hitachi.com",
       startDate: "2024-05-01",
       endDate: "Present",
       highlights: [
         "Developed automated tools for systems deployment, reducing time by 3x by analyzing sensor data streams and smart systems",
         "Designed a maintenance system for CANBUS/ETH interfacing, decreasing downtime drastically",
-        "Comissioned/Tested/Troubleshot 800+ embedded railway control systems",
-        "Produced detailed documentation and training materials to improve deployment efficiency",
+        "Comissioned/Tested/Troubleshot/Produced detailed documentation 800+ embedded railway control systems",
       ],
     },
     {
       name: "Broken Teapot Studios Inc.",
-      position: "Software Developer",
+      position: "Software Developer Intern",
       url: "https://www.brokenteapotstudios.com",
       startDate: "2024-01-01",
       endDate: "2024-01-31",
       highlights: [
         "Refined and optimized low-level game shader rendering system based on Vulkan/OpenGL achieving a 115% performance",
         "Co-designed in-game mechanincs and real-time path/ray tracing and particle simulation improvements for 5x resource efficiency",
-        "Developed dynamic npc control systems that enhanced player interaction and gameplay immersion",
       ],
     },
     {
@@ -70,7 +68,7 @@ export const defaultResumeData: ResumeData = {
       url: "https://uottawa.ca",
       area: "Computer Science, Minor in Physics",
       studyType: "Bachelor of Science",
-      startDate: "2022-09-01",
+      startDate: "2024-04-30",
       endDate: "2025-12-30",
       score: "N/A",
       courses: [
@@ -82,7 +80,24 @@ export const defaultResumeData: ResumeData = {
         "Networking",
       ],
       summary:
-        "Actively engaged in cutting-edge research across various fields, including physics, engineering, and health sciences. Multiple competitions and merit scholarships over $200,000; Dean's honour list.",
+        "Involvement & participation in multiple competitions, confrences, and other student initiatives; Merit scholarships over $200,000; Dean's honour list.",
+    },
+    {
+      institution: "University of Ottawa",
+      url: "https://uottawa.ca",
+      area: "Electrical Engineering & Physics",
+      studyType: "Bachelor of Engineering",
+      startDate: "2022-09-01",
+      endDate: "2024-04-30",
+      score: "N/A",
+      courses: [
+        "Digital Systems & Design",
+        "Signal Analysis",
+        "VHDL & IC Design",
+        "RF Communication & Design",
+      ],
+      summary:
+        "Actively engaged in cutting-edge research across various fields, including physics, engineering, and health sciences.",
     },
   ],
   skills: [
@@ -153,20 +168,24 @@ export const defaultResumeData: ResumeData = {
     {
       name: "Cybersecurity",
       keywords: [
-        "Network Security",
         "Cryptography",
         "IDS/IPS",
-        "CEH 13",
+        "CEH",
         "SIEM",
-        "DDoS Protection",
-        "SOC",
+        "DDoS",
         "SOC 2",
         "ISO 27001",
       ],
     },
     {
-      name: "Languages",
-      keywords: ["English", "French", "Persian"],
+      name: "Systems Engineering",
+      keywords: [
+        "Embedded",
+        "RTOS",
+        "CAN",
+        "Ethernet",
+        "Signal Processing",
+      ]
     },
   ],
   languages: [
@@ -182,12 +201,12 @@ export const defaultResumeData: ResumeData = {
   ],
   certificates: [
     {
-      name: "Introduction to Statistics",
-      issuer: "Stanford University",
-    },
-    {
       name: "Network Security, Python, NoSQL, 5G/3GPP",
       issuer: "Huawei Talent",
+    },
+    {
+      name: "Statistics",
+      issuer: "Stanford University",
     },
     {
       name: "Java Programming, Problem Solving",
@@ -235,13 +254,13 @@ export const defaultResumeData: ResumeData = {
   ],
   projects: [
     {
-      name: "Elysium RISC-V OS",
+      name: "Elysium RISC-V Operating System",
       description: "Project Elysium main repo, an open-source operating system designed for RISC-V based devices.",
       url: "https://github.com/qerope/Elysium"
     },
     {
       name: "ML Mystery Card Game Analyzer",
-      description: "Card Game ML Data Engineering to find the rules of a mistery card game.",
+      description: "Card Game ML Data Engineering to find the rules of a card game.",
       url: "https://github.com/qerope/de-csgames"
     },
     {
