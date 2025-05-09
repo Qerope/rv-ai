@@ -3,7 +3,7 @@ import type { ResumeData } from "./types"
 export const defaultResumeData: ResumeData = {
   basics: {
     name: "Nicholas Tavakoli",
-    label: "uOttawa CS, Hitachi Deployment Specialist",
+    label: "uOttawa CS, Hitachi Specialist",
     email: "NicholasTavakoli@gmail.com",
     phone: "(613) 294-6363",
     url: "https://Qerope.co",
@@ -28,38 +28,39 @@ export const defaultResumeData: ResumeData = {
   work: [
     {
       name: "Hitachi Rail",
-      position: "Site Deployment Intern",
+      position: "Deployment Specialist",
       url: "https://www.hitachi.com",
       startDate: "2024-05-01",
       endDate: "Present",
       highlights: [
-        "Developed automated scripts to streamline site deployment, reducing time by 300%",
-        "Designed and implemented a predictive maintenance system, decreasing downtime by 20%",
+        "Developed automated tools for systems deployment, reducing time by 3x by analyzing sensor data streams and smart systems",
+        "Designed a maintenance system for CANBUS/ETH interfacing, decreasing downtime drastically",
+        "Comissioned/Tested/Troubleshot 800+ embedded railway control systems",
         "Produced detailed documentation and training materials to improve deployment efficiency",
       ],
     },
     {
       name: "Broken Teapot Studios Inc.",
-      position: "Software Developer Intern",
+      position: "Software Developer",
       url: "https://www.brokenteapotstudios.com",
       startDate: "2024-01-01",
       endDate: "2024-01-31",
       highlights: [
-        "Developed dynamic AI systems that enhanced player interaction and gameplay immersion",
-        "Refined game shader code, improving performance by 115%",
-        "Contributed to the design of a puzzle-solving mechanic that boosted user retention by 25%",
+        "Refined and optimized low-level game shader rendering system based on Vulkan/OpenGL achieving a 115% performance",
+        "Co-designed in-game mechanincs and real-time path/ray tracing and particle simulation improvements for 5x resource efficiency",
+        "Developed dynamic npc control systems that enhanced player interaction and gameplay immersion",
       ],
     },
     {
-      name: "RTXComputers Electronics Provider",
-      position: "Software Developer",
-      url: "https://www.rtxcomputers.com",
-      startDate: "2022-05-01",
-      endDate: "2022-08-31",
+      name: "Self-employed",
+      position: "Software Engineer",
+      url: "https://qerope.co",
+      startDate: "2017-05-01",
+      endDate: "2024-01-01",
       highlights: [
-        "Developed customer support chatbot and recommendation system that improved user experience",
-        "Collaborated with marketing team to optimize website and increase conversions",
-        "Worked with technologies such as React, Node.js, and MongoDB to enhance web functionality",
+        "Developed 800+ projects ranging from healthcare to defense for notable clients such as Unity, Microsoft, TCI, EA",
+        "Lead multiple extensive projects overseeing teams of 10+ developers and designers creating $5B+ of revenue for clients",
+        "Developed and maintained high-availability systems achieving 99% satisfaction and reliability for 50+ clients serving 5M+ users",
       ],
     },
   ],
@@ -81,7 +82,7 @@ export const defaultResumeData: ResumeData = {
         "Networking",
       ],
       summary:
-        "Actively engaged in cutting-edge research across various fields, including physics, engineering, and health sciences. Multiple competitions and merit scholarships over $40,000/annum. Dean's honour list.",
+        "Actively engaged in cutting-edge research across various fields, including physics, engineering, and health sciences. Multiple competitions and merit scholarships over $200,000; Dean's honour list.",
     },
   ],
   skills: [
@@ -185,7 +186,7 @@ export const defaultResumeData: ResumeData = {
       issuer: "Stanford University",
     },
     {
-      name: "Network Security, Python Programming, 5G/3GPP",
+      name: "Network Security, Python, NoSQL, 5G/3GPP",
       issuer: "Huawei Talent",
     },
     {
@@ -212,7 +213,7 @@ export const defaultResumeData: ResumeData = {
   ],
   awards: [
     {
-      "title": "Scholarshiof for Innovation in Student Publications",
+      "title": "Scholarship for Innovation in Student Publications",
       "date": "2024-02-01",
       "awarder": "UOSU"
     },
@@ -234,14 +235,14 @@ export const defaultResumeData: ResumeData = {
   ],
   projects: [
     {
+      name: "Elysium RISC-V OS",
+      description: "Project Elysium main repo, an open-source operating system designed for RISC-V based devices.",
+      url: "https://github.com/qerope/Elysium"
+    },
+    {
       name: "ML Mystery Card Game Analyzer",
       description: "Card Game ML Data Engineering to find the rules of a mistery card game.",
       url: "https://github.com/qerope/de-csgames"
-    },
-    {
-      name: "Elysium",
-      description: "Project Elysium main repo, an open-source operating system designed for RISC-V based devices.",
-      url: "https://github.com/qerope/Elysium"
     },
     {
       name: "uOttaHack 6 & 7",
