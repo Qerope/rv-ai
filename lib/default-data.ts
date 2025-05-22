@@ -2,9 +2,9 @@ import type { ResumeData } from "./types"
 
 export const defaultResumeData: ResumeData = {
   basics: {
-    name: "Nicholas Tavakoli",
+    name: "Hamed Tavakoli",
     label: "uOttawa CS, Hitachi Specialist",
-    email: "TavakoliNicholas@gmail.com",
+    email: "HamedTava@outlook.com",
     phone: "(613) 294-6363",
     url: "https://Qerope.co",
     location: {
@@ -20,8 +20,8 @@ export const defaultResumeData: ResumeData = {
       },
       {
         network: "Linkedin",
-        username: "/NicholasTavakoli",
-        url: "https://linkedin.com/in/NicholasTavakoli",
+        username: "/Qerope",
+        url: "https://linkedin.com/in/Qerope",
       },
     ],
   },
@@ -264,8 +264,8 @@ export const defaultResumeData: ResumeData = {
       url: "https://github.com/qerope/de-csgames"
     },
     {
-      name: "uOttaHack 6 & 7",
-      description: "Main website, live website, and organizer apps for 2024 and 2025 uOttaHack hackathon.",
+      name: "uOttaHack 6 & 7 & 8",
+      description: "Main website, live website, and organizer apps for 2024 and 2025 uOttaHack hackathon & sponsorship lead for 2026.",
       url: "https://github.com/qerope/2025-uOttaHack-Home"
     },
     {
